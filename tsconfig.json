@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Configuration from Playground at https://www.typescriptlang.org/play
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2017",
+    "module": "ESNext",
+    "moduleResolution": "node",
+
+    // Added configuration to make JavaScript allowed
+    "allowJs": true,
+    "checkJs": true,
+
+    // No need for build files to showcase this
+    "noEmit": true
+  },
+  "include": ["src"]
+}

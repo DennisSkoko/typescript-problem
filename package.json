@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
